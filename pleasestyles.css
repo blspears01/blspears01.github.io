@@ -1,0 +1,38 @@
+h1 {
+	text-align: center;
+	background: teal;
+}
+
+.background {
+	background: teal;
+}
+
+.maincontent {
+	height: 100vh;
+	text-align: left;
+}
+
+a.special:hover {
+	color: #003399;
+}
+
+a.special {
+	color: #000066;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #808080;
+	color: white;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	padding: 3px;
+	background-color: DarkSalmon;
+	color: white;
+}
