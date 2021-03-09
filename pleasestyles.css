@@ -3,6 +3,16 @@ h1 {
 	background: teal;
 }
 
+p.margin {
+	margin-left: 10;
+	margin-right: 10;
+}
+
+h3.margin {
+	margin-left: 10;
+	margin-right: 10;
+}
+
 .background {
 	background: teal;
 }
@@ -13,26 +23,98 @@ h1 {
 }
 
 a.special:hover {
-	color: #003399;
+	color: lime;
 }
 
 a.special {
 	color: #000066;
+	text-decoration: none;
 }
 
-.footer {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	background-color: #808080;
-	color: white;
-	text-align: center;
+img.one {
+	height: 10rem;
+	width: 10rem;
+	border-radius: 50%;
+}
+
+div.sticky {
+	position: sticky;
+	top: 0;
+}
+
+div.abs {
+	position: absolute;
+	left: 390;
+	top: 150;
+}
+
+div.abstimestwo {
+	position: absolute;
+	left: 750;
+	top: 150;
+}
+
+div.abstimesthree {
+	position: absolute;
+	left: 1075;
+	top: 150;
 }
 
 footer {
 	text-align: center;
 	padding: 3px;
-	background-color: DarkSalmon;
+	background-color: #808080;
 	color: white;
+	font-size: 10;
+	text-decoration: none;
+}
+
+h3 {
+	text-decoration: underline;
+}
+
+a.jumps {
+	text-decoration: none;
+	color: black;
+}
+
+a.jumps:hover {
+	color: white;
+	background-color: #0066cc;
+}
+
+.crop-img {
+	max-height: 150px;
+	max-width: 100%;
+	margin-bottom: 10px;
+}
+
+.large-img {
+	display: block;
+	max-width: 100%;
+	margin-top:10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a.contact {
+	color: yellow;
+}
+
+img.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.placement {
+	position: absolute;
+	left: 450;
+	top: 200;
+}
+
+img.placement2 {
+	position: absolute;
+	left: 450;
+	top: 85;
 }
